@@ -2,11 +2,11 @@
 
 ### Add Eslint and Prettier to dev deps
 
-`npm install -D eslint prettier`
+`npm install --dev eslint prettier`
 
 ### Add the packages to combine Eslint and Prettier to dev deps
 
-`npm install -D eslint-config-prettier eslint-plugin-prettier`
+`npm install --dev eslint-config-prettier eslint-plugin-prettier`
 
 ### Add Airbnb styleguide to dev deps (choose one)
 
@@ -24,7 +24,8 @@ Example config, add/remove rules as desired:
 {
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
   "extends": ["airbnb-base", "prettier"], // or use airbnb without base for React based projects
   "plugins": ["prettier"],
