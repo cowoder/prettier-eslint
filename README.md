@@ -2,19 +2,19 @@
 
 ### Add Eslint and Prettier to dev deps
 
-`npm install --dev eslint prettier`
+`npm i -D eslint prettier`
 
 ### Add the packages to combine Eslint and Prettier to dev deps
 
-`npm install --dev eslint-config-prettier eslint-plugin-prettier`
+`npm i -D eslint-config-prettier eslint-plugin-prettier`
 
 ### Add Airbnb styleguide to dev deps (choose one)
 
 #### This includes packages only relevant for React projects:
-`npx install-peerdeps --dev eslint-config-airbnb`
+`npx install-peerdeps -D eslint-config-airbnb`
 
 #### Use this for projects without React:
-`npx install-peerdeps --dev eslint-config-airbnb-base`
+`npx install-peerdeps -D eslint-config-airbnb-base`
 
 ### Create eslint config file in project root: .eslintrc.json
 
