@@ -8,7 +8,7 @@
 
 `npm i -D eslint-config-prettier eslint-plugin-prettier`
 
-### Add Airbnb styleguide to dev deps (choose one)
+### Add Airbnb styleguide to dev deps **__(choose one)__**
 
 #### This includes packages only relevant for React projects:
 `npx install-peerdeps -D eslint-config-airbnb`
@@ -20,7 +20,7 @@
 
 Example config, add/remove rules as desired:
 
-```
+```json
 {
   "env": {
     "browser": true,
@@ -39,7 +39,7 @@ Example config, add/remove rules as desired:
 
 Example config, add/remove rules as desired:
 
-```
+```json
 {
   "semi": true,
   "trailingComma": "all",
