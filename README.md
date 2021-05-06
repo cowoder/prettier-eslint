@@ -17,6 +17,7 @@
 `npx install-peerdeps -D eslint-config-airbnb-base`
 
 ### Create eslint config file in project root: .eslintrc.json
+Optional: run `npx eslint --init` instead
 
 Example config, add/remove rules as desired:
 
